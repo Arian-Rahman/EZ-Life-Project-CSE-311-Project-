@@ -12,7 +12,6 @@ body {
   overflow: hidden;
 }
 
-
 .button_1{
     height: 38px;
     background:#a33314;
@@ -27,64 +26,6 @@ body {
   background:  #283036;
   color: #ffffff;
   margin: 10px 0 10px 0;
-}
-.login-box{
-  width: 280px;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  color: white;
-}
-.login-box h1{
-  float: left;
-  font-size: 40px;
-  border-bottom: 6px solid;
-  margin-bottom: 25px;
-  padding: 13px 0
-}
-
-.signup-box{
-  width: 400px;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  color: white;
-}
-
-.signup-box h1{
-  float: left;
-  font-size: 40px;
-  border-bottom: 6px solid;
-  margin-bottom: 25px;
-  padding: 13px 0
-}
-.signup-box h2{
-  float: left;
-  font-size: 40px;
-  border-bottom: 6px solid;
-  margin-top: 200px;
-  margin-bottom: 25px;
-  padding: 13px 0
-}
-.textbox{
-  width: 100%;
-  overflow: hidden;
-  font-size: 20px;
-  padding: 8px 0;
-  margin: 8px 0 ;
-  border-bottom: 1px solid;
-}
-.textbox input {
-  border: none;
-  outline: none;
-  background: none;
-  color: white;
-  font-size: 18px;
-  width: 660px;
-  float: left;
-  margin: 0 10px;
 }
 
 ul{   /*list*/
@@ -146,21 +87,6 @@ header a:hover{
   color:  #ffffff;
 }
 
-#showcase_login{
-  min-height: 600px;
-  background: url("../img/login3.jpg") ;
-  text-align: center;
-  color:  #ffffff;
-}
-
-#showcase_signup{
-  min-height: 800px;
-  background: url("../img/login3.jpg") ;
-  text-align: center;
-  color:  #ffffff;
-}
-
-
 #showcase h1{
   margin-top: 100px;
   font-size: 34px;
@@ -203,76 +129,32 @@ header a:hover{
   height: 70px;
 }
                   /*Sidebar and Main col */
-#main{
-    min-height: 600px;
-    background: url("../img/03.jpg") no-repeat -150px ;
-}
-
 article#main-col{
   float: left;
   width: 65%;
 }
-article#main-col2{
-  font-size: 25px;
-  color: Orange;
-  float: none;
-  height: auto;
-  min-height: 900px;
-
-
-}
-
-#HyperLink{
-  text-decoration-color: #a33314;
-}
 
 aside#sidebar{
   float: none;
-  width: 50%;
+  width: 80%;
   text-align: left;
-  padding: 10px 10px 10px 10px;
-  border: #e8491d 3px solid;
+  padding: 5px;
 }
         /*Services*/
-ul#services_su li {
-  font-size: 25px;
-  width: 20px;
-  padding: 50px;
-  border: #e8491d 3px solid;
-  text-align: center;
-  margin-bottom: 25px;
-  background:#283036;
-}
-
 ul#services li {
-  font-size: 25px;
   list-style: none;
-  width: 50%;
-  padding: 50px;
-  border: #e8491d 3px solid;
+  padding: 20px;
+  border: #cccccc solid 1px;
   text-align: center;
-  margin-bottom: 25px;
-  background:#283036;
+  margin-bottom: 5px;
+  background: #e6e6e6e6;
 }
-
-
 
 aside#sidebar .quote input, aside#sidebar .quote textarea {
   width:90%;
   padding: 5px;
 
 }
-
-ul#services li  a {font-family:Georgia,serif; font-size:large}
-ul#services li  a:link {color:Orange;}
-ul#services li  a:visited {color: Orange;}
-ul#services a:hover {text-decoration:none; color:yellowgreen; font-weight:bold;}
-
-#HyperLink a {font-family:Georgia,serif; font-size:large}
-#HyperLink a:link {color:#ffffff;}
-#HyperLink a:visited {color:#ffffff;}
-#HyperLink a:hover {text-decoration:none; color:yellowgreen; font-weight:bold;}
-
 
 
 
