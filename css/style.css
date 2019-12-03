@@ -6,12 +6,97 @@ body {
 }
 
                       /* Global */
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+  display: flex;
+  width: 700px;
+  box-shadow: 0 2px 20px 0 rgba(69,90,100,0.08);
+}
+
+.wrapper .left {
+    width: 35%;
+    padding: 20px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: #black;
+    font-family: monospace;
+}
+.wrapper .left img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.wrapper .left h4{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.wrapper .left h5{
+  font-size: 15px;
+}
+
+.wrapper .right{
+  width: 65%;
+  padding: 20px 20px;
+  background: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  color: #black;
+  font-family: monospace;
+}
+.wrapper .right .info{
+  margin-bottom: -25px;
+}
+.wrapper .right .info h4{
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+.wrapper .right .data {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .right .data h5 {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
 .container{
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
+.container h2{
+  text-align: center;
+  font-size: 30px;
 
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #d95d16;
+  font-family: monospace;
+  font-size:20px;
+  text-align:center;
+}
+.table th{
+  background-color:#d95d16;
+  color: white;
+}
 
 .button_1{
     height: 38px;
@@ -113,6 +198,7 @@ header li{    /*list items*/
   float:left;
   display: inline;
   padding: 0 20px 10px 20px ;
+  font-size: 20px;
 }
 header #branding{
   float: left;
@@ -131,11 +217,21 @@ header .highlight, header .current a{
   color: #e8491d;
   font-weight: bold;
 }
+header .highlight, header .current {
+  color: #e8491d;
+  font-weight: bold;
+}
 
 header a:hover{
   color: #cccccc;
   font-weight: bold;
 }
+
+header li:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
 
 
                 /*   SHOWCASE   */
