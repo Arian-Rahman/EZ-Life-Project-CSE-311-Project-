@@ -9,11 +9,12 @@ body {
 
 .wrapper{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-60%);
   display: flex;
-  width: 700px;
+  width: 820px;
+  min-height: 600px;
   box-shadow: 0 2px 20px 0 rgba(69,90,100,0.08);
 }
 
@@ -85,18 +86,38 @@ body {
   font-size: 30px;
 
 }
+
+
+.container2{
+  font: monospace;
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+.container2 h2{
+  font: monospace;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+
 .table {
   border-collapse: collapse;
   width: 100%;
-  color: #d95d16;
+  color: white;
   font-family: monospace;
   font-size:20px;
   text-align:center;
 }
+
 .table th{
-  background-color:#d95d16;
+  background-color:#a33314;
   color: white;
 }
+
+
+
 
 .button_1{
     height: 38px;
@@ -106,6 +127,17 @@ body {
     padding-right: 20px;
     color: #ffffff;
 }
+
+
+.button_2{
+    height: 25px;
+    background: #f4f4f4;
+    border: 2 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
 
 .dark{
   padding: 15px;
@@ -314,8 +346,15 @@ article#main-col2{
   float: none;
   height: auto;
   min-height: 900px;
+}
 
 
+article#main-col3{
+  float: left;
+  width: 65%;
+  color: white;
+  font-size: 20px;
+  font-family:monospace;
 }
 
 #HyperLink{
@@ -328,6 +367,17 @@ aside#sidebar{
   text-align: left;
   padding: 10px 10px 10px 10px;
   border: #e8491d 3px solid;
+}
+
+aside#sidebar3{
+  float: right;
+  width: 50%;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border: #e8491d 3px solid;
+  color: white;
+  font-size: 20px;
+  font-family:monospace;
 }
         /*Services*/
 ul#services_su li {
